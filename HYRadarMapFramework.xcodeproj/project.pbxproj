@@ -21,12 +21,30 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		445B97F2223C9A6F00496D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B97F1223C9A6F00496D39 /* AppDelegate.m */; };
+		445B97F5223C9A6F00496D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B97F4223C9A6F00496D39 /* ViewController.m */; };
+		445B97F8223C9A6F00496D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B97F6223C9A6F00496D39 /* Main.storyboard */; };
+		445B97FA223C9A7000496D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445B97F9223C9A7000496D39 /* Assets.xcassets */; };
+		445B97FD223C9A7000496D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B97FB223C9A7000496D39 /* LaunchScreen.storyboard */; };
+		445B9800223C9A7000496D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B97FF223C9A7000496D39 /* main.m */; };
+		445B9806223C9B8400496D39 /* HYRadarMapFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B9805223C9B8400496D39 /* HYRadarMapFramework.framework */; };
 		44F81CC821F45602006B9A10 /* HYRadarMapFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F81CC621F45602006B9A10 /* HYRadarMapFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44F81CDC21F45CBD006B9A10 /* RadarMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F81CDA21F45CBC006B9A10 /* RadarMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44F81CDD21F45CBD006B9A10 /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F81CDB21F45CBC006B9A10 /* RadarMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445B97EE223C9A6F00496D39 /* HYRadarMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYRadarMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445B97F0223C9A6F00496D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445B97F1223C9A6F00496D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445B97F3223C9A6F00496D39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		445B97F4223C9A6F00496D39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		445B97F7223C9A6F00496D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445B97F9223C9A7000496D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445B97FC223C9A7000496D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445B97FE223C9A7000496D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445B97FF223C9A7000496D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445B9805223C9B8400496D39 /* HYRadarMapFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HYRadarMapFramework.framework; sourceTree = "<group>"; };
 		44F81CC321F45602006B9A10 /* HYRadarMapFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYRadarMapFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F81CC621F45602006B9A10 /* HYRadarMapFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYRadarMapFramework.h; sourceTree = "<group>"; };
 		44F81CC721F45602006B9A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +53,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		445B97EB223C9A6F00496D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B9806223C9B8400496D39 /* HYRadarMapFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44F81CBF21F45602006B9A10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445B97EF223C9A6F00496D39 /* HYRadarMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				445B97F0223C9A6F00496D39 /* AppDelegate.h */,
+				445B97F1223C9A6F00496D39 /* AppDelegate.m */,
+				445B97F3223C9A6F00496D39 /* ViewController.h */,
+				445B97F4223C9A6F00496D39 /* ViewController.m */,
+				445B9804223C9B8400496D39 /* Products */,
+				445B97F6223C9A6F00496D39 /* Main.storyboard */,
+				445B97F9223C9A7000496D39 /* Assets.xcassets */,
+				445B97FB223C9A7000496D39 /* LaunchScreen.storyboard */,
+				445B97FE223C9A7000496D39 /* Info.plist */,
+				445B97FF223C9A7000496D39 /* main.m */,
+			);
+			path = HYRadarMapDemo;
+			sourceTree = "<group>";
+		};
+		445B9804223C9B8400496D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445B9805223C9B8400496D39 /* HYRadarMapFramework.framework */,
+			);
+			path = Products;
+			sourceTree = SOURCE_ROOT;
+		};
 		44F81CB921F45602006B9A10 = {
 			isa = PBXGroup;
 			children = (
 				44F81CC521F45602006B9A10 /* HYRadarMapFramework */,
+				445B97EF223C9A6F00496D39 /* HYRadarMapDemo */,
 				44F81CC421F45602006B9A10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				44F81CC321F45602006B9A10 /* HYRadarMapFramework.framework */,
+				445B97EE223C9A6F00496D39 /* HYRadarMapDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +140,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		445B97ED223C9A6F00496D39 /* HYRadarMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445B9801223C9A7000496D39 /* Build configuration list for PBXNativeTarget "HYRadarMapDemo" */;
+			buildPhases = (
+				445B97EA223C9A6F00496D39 /* Sources */,
+				445B97EB223C9A6F00496D39 /* Frameworks */,
+				445B97EC223C9A6F00496D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYRadarMapDemo;
+			productName = HYRadarMapDemo;
+			productReference = 445B97EE223C9A6F00496D39 /* HYRadarMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		44F81CC221F45602006B9A10 /* HYRadarMapFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44F81CCB21F45602006B9A10 /* Build configuration list for PBXNativeTarget "HYRadarMapFramework" */;
@@ -114,6 +184,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = HanYong;
 				TargetAttributes = {
+					445B97ED223C9A6F00496D39 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					44F81CC221F45602006B9A10 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -128,6 +201,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 44F81CB921F45602006B9A10;
 			productRefGroup = 44F81CC421F45602006B9A10 /* Products */;
@@ -136,11 +210,22 @@
 			targets = (
 				44F81CC221F45602006B9A10 /* HYRadarMapFramework */,
 				44F81CD321F457FE006B9A10 /* Aggregate */,
+				445B97ED223C9A6F00496D39 /* HYRadarMapDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		445B97EC223C9A6F00496D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B97FD223C9A7000496D39 /* LaunchScreen.storyboard in Resources */,
+				445B97FA223C9A7000496D39 /* Assets.xcassets in Resources */,
+				445B97F8223C9A6F00496D39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44F81CC121F45602006B9A10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,11 +247,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+			shellScript = "#!/bin/sh\n#要build的target名(若一个工程有多个target，最好手动指定需要打包的目标，如TARGET_NAME=\"framework名\")\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\n\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/Products/\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\n\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		445B97EA223C9A6F00496D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B97F5223C9A6F00496D39 /* ViewController.m in Sources */,
+				445B9800223C9A7000496D39 /* main.m in Sources */,
+				445B97F2223C9A6F00496D39 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44F81CBE21F45602006B9A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,7 +272,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		445B97F6223C9A6F00496D39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445B97F7223C9A6F00496D39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445B97FB223C9A7000496D39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445B97FC223C9A7000496D39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		445B9802223C9A7000496D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G82574ATF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products",
+				);
+				INFOPLIST_FILE = HYRadarMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyong.test.HYRadarMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445B9803223C9A7000496D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G82574ATF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products",
+				);
+				INFOPLIST_FILE = HYRadarMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyong.test.HYRadarMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		44F81CC921F45602006B9A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -312,6 +473,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanyong.HYRadarMapFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -365,6 +527,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		445B9801223C9A7000496D39 /* Build configuration list for PBXNativeTarget "HYRadarMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445B9802223C9A7000496D39 /* Debug */,
+				445B9803223C9A7000496D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44F81CBD21F45602006B9A10 /* Build configuration list for PBXProject "HYRadarMapFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

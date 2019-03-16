@@ -1,0 +1,6 @@
+framework module HYRadarMapFramework {
+  umbrella header "HYRadarMapFramework.h"
+
+  export *
+  module * { export * }
+}
